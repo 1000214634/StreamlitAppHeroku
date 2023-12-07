@@ -9,7 +9,7 @@ import pickle
 import numpy as np
 
 #loaded the model
-loaded_model=pickle.load(open('E:\Data Science\Machine Learning\ML Projs\Diabetes/trained_model.sav','rb'))
+loaded_model=pickle.load(open(r'E:\Data Science\Machine Learning\ML Projs\Diabetes\streamlit app on heroku\trained_model.sav','rb'))
 
 input_data=(10,168,74,0,0,38,0.537,34)
 
